@@ -1,0 +1,27 @@
+{
+  "name": "nodejs-postgres-crud",
+  "version": "1.0.0",
+  "description": "Simple CRUD application using NodeJs with Express framework, PostgreSQL as database, Sequeslize as ORM. Also contains Postman APIs collection",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/the-vishal-kumar/nodejs-postgres-crud"
+  },
+  "keywords": [
+    "nodejs",
+    "express",
+    "postgresql",
+    "sequelize",
+    "postman"
+  ],
+  "author": "Vishal Kumar",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "pg": "^8.3.0",
+    "sequelize": "^6.3.4"
+  }
+}
